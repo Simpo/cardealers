@@ -1,3 +1,6 @@
 .navbar{
   border-radius: 0px; /*Removes curved edges of navbar*/
 }
+.logo img{
+  width: 100%;
+}
