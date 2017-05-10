@@ -21,8 +21,7 @@
 }
 
 .footer{
-	position: relative;
-	width: 100%
-	color: white;
+	color: black;
+	border-style: solid;
 
 }
