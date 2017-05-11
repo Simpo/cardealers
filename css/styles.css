@@ -5,7 +5,9 @@
 .logo img{
   width: 100%;
 }
-
+.logo{
+  border-bottom: 10px;
+}
 .car h1{
   text-align: center;
 }
@@ -31,17 +33,24 @@
   max-height: 100%;
 }
 
-.ABOUT US{
-text-align: center;
-
+.about{
+text-align:justify;
 }
 
-.CONTACT US{
-	text-align: center;
+.contact{
+	text-align:center ;
+}
 
+.contact h2,.about h2{
+  text-align: center;
+}
+
+li{
+  list-style: none;
 }
 
 .footer{
 	color: black;
-
+  font-size: 13px;
+  text-align: center;
 }
