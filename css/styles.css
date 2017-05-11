@@ -5,6 +5,7 @@
 .logo img{
   width: 100%;
 }
+
 .car h1{
   text-align: center;
 }
@@ -17,5 +18,15 @@
 .car-type{
   text-align: center;
   font-size: 15px;
-  
+}
+.carousel-inner img{
+
+
+}
+.cars{
+  max-height: 630px;
+
+}
+.cars img{
+  max-height: 100%;
 }
