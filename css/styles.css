@@ -21,18 +21,17 @@
   text-align: center;
   font-size: 15px;
 }
-.carousel-inner img{
-
-
+.car{
+  height: 450px;
+  width: 1000px;
 }
-.cars{
-  max-height: 630px;
 
-}
 .cars img{
   max-height: 100%;
 }
-
+.toyota h1{
+  text-align: center;
+}
 .about{
 text-align:justify;
 }
@@ -48,9 +47,11 @@ text-align:justify;
 li{
   list-style: none;
 }
-
+.navbar{
+  border-radius: 0px;
+}
 .footer{
-	color: black;
-  font-size: 13px;
+	color: white;
+  font-size: 12px;
   text-align: center;
 }
