@@ -1,15 +1,15 @@
   <!DOCTYPE html>
   <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Car Dealers</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+    <head>
+      <meta charset="utf-8">
+      <title>Car Dealers</title>
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script src="js/scripts.js"></script>
+    </head>
   <body>
     <div class="header">
       <!-- Navigation bar -->
@@ -23,15 +23,15 @@
         </div>
       </nav>
       <!-- End of navigation bar -->
-
       <div class="logo">
         <img class="img-responsive" src="images/logo2.png" alt="logo"> <!--Made image responsive-->
       </div>
       <!-- End of logo -->
     </div>
   <!-- End of header -->
-    <div class="car">
-      <h1>Welcome to Car Heaven!</h1>
+  <div class="container-fluid">
+    <div class="row car">
+      <!-- <h1>Welcome to Car Heaven!</h1> -->
         <div id="myCarousel" class="col-md-offset-4 carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -43,15 +43,15 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner cars">
             <div class="item active">
-              <img src="images/audi.jpg" alt="Toyota" >
+              <img class="img-responsive" src="images/toyota6.jpg" alt="Toyota" >
             </div>
 
             <div class="item">
-              <img src="images/merc.jpg" alt="Mercedes">
+              <img class="img-responsive" src="images/merc.jpg" alt="Mercedes">
             </div>
 
             <div class="item">
-              <img src="images/bmw2.jpg" alt="BMW" >
+              <img class="img-responsive" src="images/bmw2.jpg" alt="BMW" >
             </div>
 
           </div>
@@ -65,6 +65,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
+        </div>
         </div>
       <div class="car-type">
         <!-- buttons Toyota BMW Mercedes Isuzu -->
@@ -88,18 +89,46 @@
       </div>
 
     </div>
+    <div class="container-fluid">
     <div class="display">
       <!-- car displayed here with image.... -->
       <div class="toyota">
         <h1>TOYOTA</h1>
         <div class="row">
-          <div class="col-md-4 col-md-offset-1">
-            <img src="images/toyota4.jpg" class="img-rounded" alt="Toyota 1" width="404" height="236">
-            <p>Toyota type 1 Price:$$$</p>
+          <div class="col-md-6">
+            <img src="images/toyota.jpg" class="img-rounded" alt="Toyota 1" width="404" height="236"><br>
+              <a href="#">Toyota type 1 Price:$$$</a>
           </div>
-          <div class="col-md-4 col-md-offset-2">
-            <img src="images/toyota5.jpg" class="img-rounded" alt="Toyota 1" width="404" height="236">
-            <p>Toyota type 2 Price:$$$</p>
+          <div class="col-md-6">
+            <img src="images/toyota6.jpg" class="img-rounded" alt="Toyota 1" width="404" height="236"><br>
+              <a href="#">Toyota type 2 Price:$$$</a>
+          </div>
+        </div>
+      </div>
+      <div class="bmw">
+        <h1>BMW</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/bmw.jpg" class="img-rounded" alt="BMW 1" width="404" height="236"><br>
+              <a href="#">BMW type 1 Price:$$$</a>
+          </div>
+          <div class="col-md-6">
+            <img src="images/bmw2.jpg" class="img-rounded" alt="BMW 2" width="404" height="236"><br>
+              <a href="#">BMW type 2 Price:$$$</a>
+          </div>
+        </div>
+      </div>
+      <div class="mercedes">
+        <h1>Mercedes</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/merc.jpg" class="img-rounded" alt="Merc 1" width="404" height="236"><br>
+              <a href="#">Mercedes type 1 Price:$$$</a>
+          </div>
+          <div class="col-md-6 ">
+            <img src="images/mercedes.jpg" class="img-rounded" alt="Merc 2" width="404" height="236"><br>
+              <a href="#">Mercedes type 2 Price:$$$</a>
+            </div>
           </div>
         </div>
       </div>
@@ -142,6 +171,5 @@
   </footer>
 
 </body>
-
 
 </html>

@@ -29,7 +29,7 @@
 .cars img{
   max-height: 100%;
 }
-.toyota h1{
+.toyota, .bmw, .mercedes h1{
   text-align: center;
 }
 .about{
