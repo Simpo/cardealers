@@ -1,3 +1,20 @@
+$(document).ready(function() {
+   $("input#toyota").click(function() {
+     $("div#display").fadeIn("slow");
+   });
+
+   $("input#bmw").click(function() {
+     $("div#display").hide();
+     $("div#display1").fadeIn("slow");
+   });
+
+   $("input#mercedes").click(function() {
+     $("div#display").hide();
+     $("div#display1").fadeOut();
+     $("div#display2").fadeIn("slow");
+   });
+});
+
 // Activate Carousel
 $("#myCarousel").carousel();
 

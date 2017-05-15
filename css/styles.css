@@ -21,18 +21,31 @@
   text-align: center;
   font-size: 15px;
 }
-.car{
-  height: 450px;
-  width: 1000px;
-}
+.cars{
+  max-height: 630px;
 
+}
 .cars img{
   max-height: 100%;
 }
+#display{
+  display: none;
+}
+#display1{
+  display: none;
+}
+#display2{
+  display: none;
+}
+
 .toyota, .bmw, .mercedes h1{
   text-align: center;
 }
+.mercedes a{
+  text-align: center;
+}
 .about{
+margin-top: 50px;
 text-align:justify;
 }
 

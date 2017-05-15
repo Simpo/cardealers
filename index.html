@@ -13,8 +13,11 @@
   <body>
     <div class="header">
       <!-- Navigation bar -->
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar">
         <div class="container-fluid">
+          <div class="logo">
+            <a href="#" class="pull-left"><img src="images/logo3.jpg"></a>
+          </div>
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -23,16 +26,12 @@
         </div>
       </nav>
       <!-- End of navigation bar -->
-      <div class="logo">
-        <img class="img-responsive" src="images/logo2.png" alt="logo"> <!--Made image responsive-->
-      </div>
-      <!-- End of logo -->
     </div>
   <!-- End of header -->
   <div class="container-fluid">
     <div class="row car">
       <!-- <h1>Welcome to Car Heaven!</h1> -->
-        <div id="myCarousel" class="col-md-offset-4 carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -70,75 +69,91 @@
       <div class="car-type">
         <!-- buttons Toyota BMW Mercedes Isuzu -->
         <h1>Choose the car you wish to purchase</h1>
-          <div class="col-md-6">
-            <div class ="radio">
-              <label><input type="radio" name="optradio">Toyota</label>
-            </div>
-          <div class ="radio">
-            <label><input type="radio" name="optradio">BMW</label>
-          </div>
-          </div>
-        <div class="col-md-6">
-          <div class ="radio">
-            <label><input type="radio" name="optradio">Mercedes</label>
-          </div>
-          <div class ="radio">
-            <label><input type="radio" name="optradio">ISUZU</label>
-          </div>
-        </div>
-      </div>
+        <div class="col-md-2">
 
-    </div>
+        </div>
+          <div class="col-md-2">
+            <div class ="radio">
+              <label ><input id="toyota" type="radio" name="optradio">Toyota</label>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class ="radio">
+              <label ><input id="bmw" type="radio" name="optradio">BMW</label>
+            </div>
+          </div>
+        <div class="col-md-2">
+          <div class ="radio">
+            <label ><input id="merc" type="radio" name="optradio">Mercedes</label>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class ="radio">
+            <label ><input id="isuzu" type="radio" name="optradio">ISUZU</label>
+          </div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+      </div>
     <div class="container-fluid">
-    <div class="display">
+      <div id="display">
       <!-- car displayed here with image.... -->
-      <div class="toyota">
-        <h1>TOYOTA</h1>
-        <div class="row">
-          <div class="col-md-6">
-            <img src="images/toyota.jpg" class="img-rounded" alt="Toyota 1" width="404" height="236"><br>
-              <a href="#">Toyota type 1 Price:$$$</a>
-          </div>
-          <div class="col-md-6">
-            <img src="images/toyota6.jpg" class="img-rounded" alt="Toyota 1" width="404" height="236"><br>
-              <a href="#">Toyota type 2 Price:$$$</a>
-          </div>
-        </div>
-      </div>
-      <div class="bmw">
-        <h1>BMW</h1>
-        <div class="row">
-          <div class="col-md-6">
-            <img src="images/bmw.jpg" class="img-rounded" alt="BMW 1" width="404" height="236"><br>
-              <a href="#">BMW type 1 Price:$$$</a>
-          </div>
-          <div class="col-md-6">
-            <img src="images/bmw2.jpg" class="img-rounded" alt="BMW 2" width="404" height="236"><br>
-              <a href="#">BMW type 2 Price:$$$</a>
-          </div>
-        </div>
-      </div>
-      <div class="mercedes">
-        <h1>Mercedes</h1>
-        <div class="row">
-          <div class="col-md-6">
-            <img src="images/merc.jpg" class="img-rounded" alt="Merc 1" width="404" height="236"><br>
-              <a href="#">Mercedes type 1 Price:$$$</a>
-          </div>
-          <div class="col-md-6 ">
-            <img src="images/mercedes.jpg" class="img-rounded" alt="Merc 2" width="404" height="236"><br>
-              <a href="#">Mercedes type 2 Price:$$$</a>
+
+        <div class="toyota">
+          <h1>TOYOTA</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/toyota.jpg" class="img-rounded" alt="Toyota 1" width="404" height="236"><br>
+                <a href="#">Toyota type 1 Price:$$$</a>
+            </div>
+            <div class="col-md-6">
+              <img src="images/toyota6.jpg" class="img-rounded" alt="Toyota 1" width="404" height="236"><br>
+                <a href="#">Toyota type 2 Price:$$$</a>
             </div>
           </div>
         </div>
-      </div>
+        </div>
+
+        <div id="display1">
+          <div class="bmw">
+            <h1>BMW</h1>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/bmw.jpg" class="img-rounded" alt="BMW 1" width="404" height="236"><br>
+                  <a href="#">BMW type 1 Price:$$$</a>
+              </div>
+              <div class="col-md-6">
+                <img src="images/bmw2.jpg" class="img-rounded" alt="BMW 2" width="404" height="236"><br>
+                  <a href="#">BMW type 2 Price:$$$</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="display2">
+          <div class="mercedes">
+            <h1>Mercedes</h1>
+            <div class="row">
+              <div class="col-md-5 col-md-offset-1">
+                <img src="images/merc.jpg" class="img-rounded" alt="Merc 1" width="404" height="236"><br>
+                  <a href="#">Mercedes type 1 Price:$$$</a>
+              </div>
+              <div class="col-md-5 col-md-offset-1">
+                <img src="images/mercedes.jpg" class="img-rounded" alt="Merc 2" width="404" height="236"><br>
+                  <a href="#">Mercedes type 2 Price:$$$</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
     <div class="US">
       <!-- About and Cotact Us data... -->
-      <div class="col-md-1">
-      </div>
+      <div class="container-fluid">
+        <div class="col-md-2">
 
-      <div class="col-md-5 about">
+        </div>
+      <div class="col-md-8 about">
         <h2> ABOUT US</h2>
           <strong>Our Mission:</strong><br>
            <p>To continuously provide better service to our customers all around the world, and pursue customer satisfaction with constant efforts and passion in used automobile industry.</p>
@@ -153,7 +168,10 @@
 
      </div>
 
-     <div class="col-md-4 contact">
+     <div class="col-md-2">
+
+     </div>
+     <div class="col-md-10 col-md-offset-1 contact">
       <h2> CONTACT US</h2>
          <li>1st Floor Ngong’ Lane Plaza Along Ngong’ Lane</li><br>
          <li>Off Ngong’ Road – near Prestige Plaza</li><br>
@@ -162,6 +180,11 @@
          <li>Mobile: +254722000111</li><br>
          <li>P.O BOX 139111-00200</li><br><br>
     </div>
+
+    <div class="col-md-2">
+
+    </div>
+  </div>
   </div>
 
   <footer class="col-md-12 footer">
