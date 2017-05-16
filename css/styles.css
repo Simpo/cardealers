@@ -1,13 +1,17 @@
 
-.navbar{
+.nav1{
   border-radius: 0px; /*Removes curved edges of navbar*/
+  margin-bottom: 0px;
 }
-.logo img{
+/*.logo img{
   width: 100%;
-}
-.logo{
-  border-bottom: 10px;
-}
+}*/
+.logo {
+    display: block;
+    margin-left: 500px;
+    margin-right: auto;
+   }
+
 .car h1{
   text-align: center;
 }
@@ -41,8 +45,13 @@
 .toyota, .bmw, .mercedes h1{
   text-align: center;
 }
-.mercedes a{
-  text-align: center;
+.toyota,.bmw,.mercedes{
+  margin-top: 100px;
+}
+.fun {
+margin-left:240px;
+margin-top: 2px;
+
 }
 .about{
 margin-top: 50px;

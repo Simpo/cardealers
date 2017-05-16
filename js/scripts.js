@@ -1,17 +1,28 @@
 $(document).ready(function() {
    $("input#toyota").click(function() {
      $("div#display").fadeIn("slow");
+     $("div#display1").hide();
+     $("div#display2").hide();
+
    });
 
    $("input#bmw").click(function() {
-     $("div#display").hide();
      $("div#display1").fadeIn("slow");
+     $("div#display").hide();
+     $("div#display2").hide();
+
    });
 
-   $("input#mercedes").click(function() {
+   $("input#merc").click(function() {
+    $("div#display2").fadeIn("slow");
      $("div#display").hide();
-     $("div#display1").fadeOut();
-     $("div#display2").fadeIn("slow");
+     $("div#display1").hide();
+   });
+
+   $("input#all").click(function() {
+    $("div#display2").fadeIn("slow");
+     $("div#display").fadeIn("slow");
+     $("div#display1").fadeIn("slow");
    });
 });
 
