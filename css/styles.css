@@ -22,7 +22,8 @@
   font-size: 15px;
 }
 .cars{
-  max-height: 630px;
+  max-height: 430px;
+
 
 }
 .cars img{
@@ -67,4 +68,3 @@ li{
 	color: white;
   font-size: 12px;
   text-align: center;
-}
