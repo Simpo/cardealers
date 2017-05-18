@@ -44,7 +44,12 @@
 #display2{
   display: none;
 }
-
+#receipt{
+  display: none;
+}
+.modal-body{
+  height: 600px;
+}
 .toyota, .bmw, .mercedes h1{
   text-align: center;
 }
