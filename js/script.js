@@ -1,8 +1,4 @@
-function myFunction() {
-    var str = "Harrier, Probox, NZE";
-    var result = str.link("https://www.w3schools.com");
-    document.getElementById("izuzu").innerHTML = result;
-}
+
 function updateTotal() {
   document.getElementById("amtOut").innerHTML=document.getElementById("amtIn").value;
 
