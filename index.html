@@ -73,7 +73,7 @@
       </div>
     <div class="car-type">
       <!-- buttons Toyota BMW Mercedes Isuzu -->
-      <h1>Choose the car you wish to purchase</h1>
+      <h1>CHOOSE YOUR DREAM CAR</h1>
       <div class="col-md-2">
 
       </div>
@@ -111,28 +111,92 @@
             <img src="images/toyota.jpg" class="img-rounded" alt="Toyota 1" width="504" height="336"><br>
               <a href="#">Toyota type 1 Price:$$$</a>
               <!-- Trigger the modal with a button -->
-<button type="button" class="fun btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Calculate Price</button>
+              <button type="button" class="fun btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Calculate Price</button>
 
-<!-- Modal for the javascript calculator-->
-<div id="myModal" class="modal fade" role="dialog">
-<div class="modal-dialog">
+              <!-- Modal for the javascript calculator-->
+              <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
 
-  <!-- Modal content-->
-  <div class="modal-content">
-    <div class="modal-header">
-      <button type="button" class="close" data-dismiss="modal">&times;</button>
-      <h4 class="modal-title">Toyota 2500cc</h4>
-    </div>
-    <div class="modal-body">
-      <p>Here we are going to calculate the price of the car.</p>
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-    </div>
-  </div>
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Toyota 2500cc</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Here we are going to calculate the price of the car.</p>
+                      <div class="user">
+                        <form class="form-horizontal" action="index.html" method="post">
+                          <div class="form-group">
+                            <label for="fullname" class="control-label col-sm-4">Full Name</label>
+                              <div class="col-sm-6">
+                                <input type="text" id="fullname" value="" class="form-control" placeholder="Full name">
+                              </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="address" class="control-label col-sm-4">Address</label>
+                              <div class="col-sm-6">
+                                <input type="text" id="address" value="" class="form-control" placeholder="Physical Address">
+                              </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="email" class="control-label col-sm-4">Email:</label>
+                              <div class="col-sm-6">
+                                <input type="text" id="email" value="" class="form-control" placeholder="Email Address">
+                              </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="price" class="control-label col-sm-4">Original Price:</label>
+                              <div class="col-sm-6">
+                                <p>$20,000</p>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="price" class="control-label col-sm-4">After 16% Vat:</label>
+                                <div class="col-sm-6">
+                                  <span id = "disOut">....</span>
+                                </div>
+                              </div>
+                              <label for="price" class="control-label col-sm-4">Shipping:</label>
+                                <div class="col-sm-6">
+                                  <span id = "sipOut">2%</span>
+                                </div>
+                                <label for="price" class="control-label col-sm-4">Total Cost:</label>
+                                  <div class="col-sm-6">
+                                    <span id = "totOut">....</span>
+                                  </div>
+                                </div>
+                          <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-8">
+                              <button type="submit" class="btn btn-default">Submit</button>
+                              <input type="button"  value="APPLY " onClick = "applyDiscount(document.getElementById('amount').value)">
 
-</div>
-</div>
+
+
+                            </div>
+                          </div>
+                        </div>
+                        <div id="receipt">
+                          <div class="col-md-12">
+                            <h2>Hi, <span class="fullname"></span></h2>
+                              <p>Your purchase has been Successful!</p>
+                              <p> Here are your purchase details: </p>
+                              <ul>
+                                <li>Name:<strong><span class="fullname"></span></strong></li>
+                                <li>Address: <strong><span class="address"></span></strong></li>
+                                <li>Email: <strong><span class="email"></span></strong></li>
+                              </ul>
+                              <h2>Thank you for visiting Car Dealers Limited!</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
           </div>
           <div class="col-md-5 ">
             <img src="images/toyota6.jpg" class="img-rounded" alt="Toyota 2" width="504" height="336"><br>
