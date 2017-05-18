@@ -24,6 +24,8 @@
 .car-type{
   text-align: center;
   font-size: 15px;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 .cars{
   max-height: 430px;
