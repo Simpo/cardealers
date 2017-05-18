@@ -32,6 +32,18 @@
     <button type="button" class="btn btn-primary">Mercedez</button>
 
   </div>
+  <div class="img">
+    <input type="image" src="img/economy.jpg" onsubmit="submit();" />
+
+    <button type="submit" name="beer" value="beer_btn_was_clicked">
+
+
+        <img src="img/economy.jpg" />
+    </button>
+    <input id="image" type="image" src="img/economy.jpg">
+
+  </div>
+
 
 
 </div>
@@ -90,6 +102,7 @@
       <form>
         <input type="text" id = "amtIn" placeholder = "Enter Total Amount" onChange = "updateTotal()">
         <!-- <input type="text" id = "code" placeholder = "Enter Discount code"> -->
+
         <input type="button"  value="APPLY "
         onClick = "applyDiscount(document.getElementById('amtIn').value)">
 
@@ -101,7 +114,6 @@
         <h3>After 16% Vat:- <span id = "disOut">....</span></h3>
         <h3>Shipping:- <span id = "sipOut">2%</span></h3>
         <h3>Total Cost:- <span id = "totOut">......</span></h3>
-        <input type="text" id = "cashIn" placeholder = " Total Cost" onChange = "upTotal()">
 
 
 
